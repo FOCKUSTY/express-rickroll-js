@@ -7,8 +7,6 @@ router.get("{/*path}", (_request, response) => {
   response.redirect(REDIRECT_URL);
 });
 
-export {
-  router as rootRouter
-}
+export { router as rootRouter };
 
 export default router;
